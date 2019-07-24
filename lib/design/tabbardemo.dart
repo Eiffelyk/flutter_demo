@@ -16,8 +16,11 @@ class TabBarDemo extends StatelessWidget {
 //                child: Text("BUS"),
               ),
               Tab(
-                icon: Icon(Icons.directions_bike),
-                child: Text("BIKE"),
+                icon: Icon(Icons.directions_bike,size: 20.0,color: Colors.yellow,),
+                child: Text("BIKE",style: TextStyle(
+                  fontFamily: 'Regular',
+                  fontSize:10.0
+                ),),
               ),Tab(
                 icon: Icon(Icons.directions_transit),
                 child: Text("TRANSIT"),
