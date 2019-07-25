@@ -15,7 +15,6 @@ class _AnimatedContainerApp extends State<AnimatedContainerApp> {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return new MaterialApp(
       home: Scaffold(
         appBar: AppBar(
