@@ -11,6 +11,8 @@ import 'design/tabbardemo.dart';
 import 'forms/mycustomform.dart';
 import 'forms/mycustomtextformfield.dart';
 import 'forms/textfieldfocus.dart';
+import 'forms/retrievethetext.dart';
+
 //void main() => runApp(MyApp());//默认demo
 //void main() => runApp(AnimatedContainerApp());//Container 里的动画渐变效果
 //void main() => runApp(AnimatedOpacityDemo()); //Widget 的淡入淡出效果
@@ -22,4 +24,5 @@ import 'forms/textfieldfocus.dart';
 //void main() => runApp(TabBarDemo());//使用 tabs
 //void main() => runApp(EFCustom());//响应文本框内容的更改
 //void main() => runApp(EFTextFormField());//构建一个有验证判断的表单
-void main() => runApp(MyTextFieldFocusDome());//焦点和文本框
+//void main() => runApp(MyTextFieldFocusDome());//焦点和文本框
+void main() => runApp(RetrieveTheTextDemo()); //获取文本框的输入值
