@@ -50,11 +50,16 @@ class RetrieveTheTextState extends State<RetrieveTheText> {
             context: context,
             builder: (context) {
               return AlertDialog(
+
                 content: Text(textFieldController.text),
                 title: Text("Value"),
                 actions: <Widget>[
-                  RaisedButton(
-                    child: Text("que"),
+                  FlatButton(
+
+                    child: Text("Yes"),
+                  ),
+                  FlatButton(
+                    child: Text("No"),
                   )
                 ],
               );
